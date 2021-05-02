@@ -1,0 +1,88 @@
+:root{
+    --primary: #212529;
+    --secundary: #707070;
+    --light: #F8F9FA;
+    --white: #fff;
+    --success: #28a745;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight:lighter;
+}
+h5{
+    font-weight: lighter;
+}
+.clean-bg{
+    background-color: var(--white);
+}
+.nav-and-form{
+    background-color: var(--success);
+    margin-bottom: 2rem;
+    color: var(--white);
+}
+.logo img{
+    max-width: 5rem;
+}
+.text-grey{
+    color: var(--secundary);
+}
+.card img{
+    max-width: 23rem;
+    max-height: 14rem;
+}
+.locations{
+    font-size: 0.7rem;
+}
+.discount{
+    color: var(--success);
+    font-size: 1.3rem;
+}
+.form-title{
+    font-size: 1.4rem;
+}
+.form-inputs{
+    max-width: 30rem;
+}
+.footer img{
+    max-width: 10rem;
+}
+.card-body{
+    min-height: 15rem;
+}
+.card-title{
+    min-height: 5rem;
+}
+@media screen and (min-width: 1400px) {
+    .card img{
+        min-width: 26.125rem;
+    }
+}
+@media screen and (max-width: 1201px) {
+    .card{
+        min-height: 28rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .card-body{
+        min-height: 18.5rem;
+    }
+    .card-footer{
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .card{
+        max-width: 23rem;
+        max-height: 29rem;
+    }
+    
+}
+@media screen and (max-width: 390px){
+    .card{
+        margin-top: 4rem;
+        min-height: 0rem;
+        max-height: 26rem;
+    }   
+}
+
